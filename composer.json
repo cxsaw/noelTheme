@@ -1,0 +1,17 @@
+{
+    "name": "root/test-wordpress",
+    "description": "Test de projet wordpress",
+    "require": {
+        "johnpbloch/wordpress": "4.2"
+    },
+    "extra": {
+        "wordpress-install-dir": "wp"
+    },
+    "license": "P2W",
+    "authors": [
+        {
+            "name": "Moi Moi",
+            "email": "moi@moi.moi"
+        }
+    ]
+}
