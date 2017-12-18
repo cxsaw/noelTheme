@@ -1,0 +1,279 @@
+/*section principale*/
+
+#image
+{
+    -webkit-box-shadow: inset 3px 21px 32px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 3px 21px 32px -6px rgba(0,0,0,0.75);
+    box-shadow: inset 3px 21px 32px -6px rgba(0,0,0,0.75);
+}
+
+
+body {
+    font-family: 'Exo', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.main {
+    background-image: url("../images/GET_fond_rouge.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.overlay {
+    background-color: rgba(10, 10, 10, 0.22);
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 25px;
+    justify-content: center;
+}
+
+
+.flex-container > div {
+    color: aliceblue;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 180px;
+    height: 270px;
+}
+
+
+
+.flex-container > div > p {
+    padding-top: 10px;
+    font-size: 50%;
+    text-align: center;
+    
+}
+
+/* Bouton de renvoi au formulaire */
+
+.btn {
+    
+    /* je "circularise" le bouton*/
+    background-color: #fff;
+    display: block;
+    border-style: solid;
+    background: #fff;
+    border-color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height:30px;
+    padding-top: 2px;
+    padding-left: 1px;
+    margin: auto;
+    font-size: 19px;
+
+}
+
+#goto{
+    background-color: transparent;
+    width: auto;
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: -150px;
+}
+
+
+
+.up_btn {
+
+
+    display: inline-flex;
+    border-style: solid;
+    background: #fff;
+    border-color: #fff;
+    height: 20%;
+    border-radius: 9px;
+    color: dimgrey;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 19px;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+
+#arrow {
+     color: firebrick;
+    padding-top: -5px;    
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%; 
+    background-color: #fff;
+    width:10px;
+    height: 10px;
+    text-align: center;
+    
+    
+    border-style: solid;
+    border-color: #fff;
+    
+
+}
+
+.filler{
+    height: 100px;
+}
+/* cadres  & formulaire */
+
+.renne img {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+    -o-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+
+}
+
+#red2 {
+    background-color: firebrick;
+    color: aliceblue;
+    border-color: red;
+    text-transform: uppercase;
+}
+
+#red {
+    background-color: firebrick;
+    color: aliceblue;
+    border-color: red;
+    text-transform: uppercase;
+}
+
+#red:hover {
+    background-color: #f1f1f1;
+    color: firebrick;
+    border-color: red;
+    text-transform: uppercase;
+}
+
+#redFont {
+    color: red;
+
+}
+
+/* gère la taille des inputs*/
+.full {
+    width: 98%;
+    margin-top: 8px;
+}
+
+.demi {
+    margin-top: 8px;
+    padding-right: 2px;
+    display: inline-flex;
+    width: 48%;
+}
+
+#text {
+    margin-top: 8px;
+
+    display: inline-flex;
+    width: 48%;
+    height: 100px;
+}
+
+.wish {
+    margin-top: 8px;
+    display: inline-flex;
+    width: 48%;
+    height: 100px;
+    margin-bottom: 8px;
+}
+
+/*pour griser le fond des inputs*/
+input[type=text],
+input[type=email] {
+    background-color: #CCC6C0;
+
+}
+
+.formText {
+    padding-top: 10px;
+    font-size: 700;
+    -o-transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    transform: rotate(3deg);
+
+
+}
+
+#sub_text
+{
+    visibility:hidden;
+
+}
+.title_form {
+    font-size: 800;
+
+}
+
+/*pour les cadres*/
+
+.cadreDeviant {
+    border: 18px;
+    height: 555px;
+    border-style: solid;
+    padding-top: 10px;
+    border-color: firebrick;
+    -o-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    background-color: #fff;
+    padding-bottom: -8px;
+    margin: -30px
+}
+
+.cadre {
+    border: 18px;
+    border-color: grey;
+    padding-bottom: -20px;
+    text-align: center;
+    width: inherit;
+    border-style: solid;
+    background-color: #fff;
+    margin-bottom: 50px;
+
+}
+
+/* les cadeaux !!*/
+
+#right_gift {
+
+   position: absolute;
+     margin-left: 1000px;
+    margin-bottom: 10px;
+}
+
+.imageWrapper{
+     position: relative;
+}
+
+#left_gift {
+
+    margin-top: 50px;
+    position: absolute;
+}
+
+.flex-container > p {
+    margin-top: inherit;
+    text-align: justify;
+}
+
+
+
+.footer {
+    margin-left: -20px;
+    border-bottom: 25px solid firebrick;
+}
